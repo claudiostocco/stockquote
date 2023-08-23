@@ -1,11 +1,14 @@
-import yfinance as yf
-from datetime import datetime
+import scheduler as sc
 
-ticker = yf.Ticker('MGLU3.SA')
-# print(ticker.get_actions())
-# print(ticker.info)
-data_ticker = ticker.history()
+def startServer():
+  print('Starting server...')
+  sc.start()
+  print('Server started','\n')
 
-# end_data = datetime.now().strftime('%Y-%m-%d')
-# data_ticker = yf.download("VALE", start="2023-08-01", end=end_data, progress=False)
-print(data_ticker)
+  while not sc.finished:
+    print('exit -> Stop server')
+    print('')
+    key = input('Type command: ')
+    sc.finished = key.__eq__('exit')
+
+startServer()

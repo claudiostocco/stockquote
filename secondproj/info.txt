@@ -1,3 +1,11 @@
 https://pt.linkedin.com/pulse/como-extrair-dados-de-a%C3%A7%C3%B5es-do-yahoo-finance-python-emanuel-prado
 
 https://analyzingalpha.com/yfinance-python
+
+Deploy em servidor gratuíto
+https://www.youtube.com/watch?v=ELjiCMhnA0c
+
+Python na AWS
+https://www.youtube.com/watch?v=OxZdEng_wGc
+
+https://blog.back4app.com/pt/provedores-de-hospedagem-python/
