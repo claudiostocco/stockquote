@@ -1,2 +1,2 @@
 # Defina o URL do Realtime Database do Firebase
-firebase_url = 'https://seuprojeto.firebaseio.com/'
+firebase_url = 'https://claudio-stocco.firebaseio.com/stock-cote/'
