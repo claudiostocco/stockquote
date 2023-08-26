@@ -8,7 +8,8 @@ def process(ticker, data):
 
 def write(ticker, data):
     print("Gravando dados...")
-    url = f"{constants.firebase_url}prices/{ticker['ticker']}.json"
+    tickerName = ticker['ticker'].replace('.sa','')
+    url = f"{constants.firebase_url}prices/{tickerName}.json"
     print(url)
     res = requests.put(url=url,data=data)
     print(res.status_code,"\n",res.content)
